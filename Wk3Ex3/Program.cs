@@ -25,8 +25,8 @@ namespace Wk3Ex3
             //Prompts the user to enter a string for use in the for loop
             Console.WriteLine("Enter a string: ");
 
-            //Allows the user to input a string to use in for loop
-            myString = Console.ReadLine();
+            //Allows the user to input a string to use in for loop, converts it to lowercase
+            myString = Console.ReadLine().ToLower();
             
             //Takes the string's length in terms of letters to initialize how many loops the for loop will do. 
             stringLength = myString.Length;
